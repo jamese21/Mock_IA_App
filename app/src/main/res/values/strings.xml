@@ -11,4 +11,16 @@
     <string name="login_failed">"Login failed"</string>
     <string name="login">login</string>
     <string name="menu">Menu</string>
+    <string name="item_name">Item Name</string>
+    <string name="description">Description</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="todo">TODO</string>
+    <string name="cart">Cart</string>
+    <string name="add_item">Add Item</string>
+    <string name="enter_item_name">Enter Item Name</string>
 </resources>
