@@ -19,8 +19,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/enter_item_name"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemName" />
+
     <TextView
-        android:id="@+id/Item Name"
+        android:id="@+id/itemName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="61dp"
@@ -31,27 +49,9 @@
         android:layout_marginBottom="7dp"
         android:text="@string/item_name"
         android:textColor="?colorPrimaryDark"
-        android:textSize="20"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Heading" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="303dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginLeft="61dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="47dp"
-        android:layout_marginRight="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/enter_item_name"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item Name"
-        android:autofillHints="" />
 </androidx.constraintlayout.widget.ConstraintLayout>
