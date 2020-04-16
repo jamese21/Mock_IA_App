@@ -65,7 +65,7 @@
 
 
         <RadioButton
-            android:id="@+id/1Button"
+            android:id="@+id/ButtonOne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/_1"
@@ -73,7 +73,7 @@
             android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/2Button"
+            android:id="@+id/ButtonTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/_2"
@@ -81,7 +81,7 @@
             android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/3Button"
+            android:id="@+id/ButtonThree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/_3"
@@ -89,7 +89,7 @@
             android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/4Button"
+            android:id="@+id/ButtonFour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/_4"

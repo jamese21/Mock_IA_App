@@ -34,6 +34,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recView"
         android:layout_width="412dp"
         android:layout_height="625dp"
         android:layout_marginTop="11dp"

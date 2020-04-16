@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        title = findViewById(R.id.title);
+        loginButton = findViewById(R.id.login);
+        recyclerView = findViewById(R.id.recView);
     }
 
     public void GoToLogin(View v)
@@ -27,4 +30,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getBaseContext(), LoginActivity.class);
         startActivity(intent);
     }
+
 }
