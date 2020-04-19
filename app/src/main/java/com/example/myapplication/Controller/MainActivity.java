@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.myapplication.R;
 import com.example.myapplication.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {

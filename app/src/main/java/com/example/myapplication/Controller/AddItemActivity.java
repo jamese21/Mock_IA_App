@@ -1,14 +1,16 @@
-package com.example.myapplication;
+package com.example.myapplication.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ItemActivity extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class AddItemActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_item);
+        setContentView(R.layout.activity_additem);
     }
 }
